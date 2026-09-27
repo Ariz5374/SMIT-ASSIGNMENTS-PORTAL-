@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!--  MAin Headerrr -->
+    <header class="header">
+        <!-- HEader ki left SIde -->
+        <div class="header-left">
+            <i class="fa-solid fa-bars m menu-icon"></i>
+
+            <div class="Youtube-logo">
+                <i class="fa-brands fa-youtube"></i>
+                <span>Youtube</span>
+            </div>
+            <span class="country">PK</span>
+        </div>
+
+        <!-- Search BAr-->
+        <div class="Search-Bar">
+            <input type="text" placeholder="Search">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        <!-- Header ki Right sideeee-->
+        <div class="header-right">
+            <i class="fa-solid fa-microphone"></i>
+            <i class="fa-solid fa-video"></i>
+            <i class="fa-solid fa-grip"></i>
+            <i class="fa-solid fa-bell"></i>
+
+            <div class="profile">A</div>
+        </div>
+    </header>
+
+    <!-- SIde BArr-->
+
+    <aside class="sidebar">
+        <div class="sidebar-item active">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fa-solid fa-compass"></i>
+            <span>Explore</span>
+        </div>
+
+        <div class="sidebar-item">
+            <i class="fa-solid fa-box"></i>
+            <span>Subscription</span>
+        </div>
+        <!-- Side bar ko section me divide krnay kay liye -->
+        <div class="sidebar-divider"></div>
+
+        <div class="sidebar-item">
+            <i class="fa-solid fa-play"></i>
+            <span>Library</span>
+        </div>
+
+        <div class="sidebar-item">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <span>History</span>
+        </div>
+
+
+        <div class="sidebar-item">
+            <i class="fa-solid fa-video">
+            </i>
+            <span>Your Videos</span>
+        </div>
+
+        <div class="sidebar-item">
+            <i class="fa-solid fa-clock"></i>
+            <span>Watch Later</span>
+        </div>
+
+        <div class="sidebar-item">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <span>Liked Videos</span>
+        </div>
+        <!-- Divide kay liye again-->
+        <div class="sidebar-divider"></div>
+
+        <h3>SUBSCRIPTIONS</h3>
+        <div class="sidebar-item">
+            <i class="fa-solid fa-music"></i>
+            <span>Music</span>
+        </div>
+
+        <div class="sidebar-item">
+            <i class="fa-solid fa-trophy"></i>
+            <span>Sports</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fa-solid fa-gamepad"></i>
+            <span>Gaming</span>
+        </div>
+        <div class="sidebar-item">
+            <i class="fa-solid fa-newspaper"></i>
+            <span>News</span>
+        </div>
+    </aside>
+
+
+    <!-- Main Content Areaaa-->
+    <main class="main-content">
+
+        <!-- Category kay buttonss-->
+        <div class="categories">
+            <button class="category active-category">
+                All
+            </button>
+
+            <button class="category">
+                Music
+            </button>
+            <button class="category">
+                Mixes
+            </button>
+            <button class="category">
+                User Interface design
+            </button>
+            <button class="category">
+                Hollywood
+            </button>
+            <button class="category">
+                Website
+            </button>
+            <button class="category">
+                Computer Science
+            </button>
+            <button class="category">
+                contemporary
+            </button>
+        </div>
+        <!-- Video Ka Gridd and saray video cards 8 vids kay-->
+        <section class="video-grid">
+            <!-- vid-1 -->
+            <article class="vid-card">
+                <div class="thumbnail">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXWE9TcUKwMips2egEuqJ55U-FFAtA5mGbGWFz3LQlQA&s=10"
+                        alt="Doctor video">
+                    <span class="duration">
+                        5:21
+                    </span>
+                    <div class="expand-icon">
+                        <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                    </div>
+                </div>
+
+                <div class="video-text">
+                    <h3>3-Year Medical Doctor (MD) Degree in UK</h3>
+                    <p> Ready to start med school? AUC has a 92% first-time residency rate...</p>
+
+                    <div class="metadata">
+                        <span class="ad">
+                            AD
+                        </span>
+                        AUC School of Medicine
+                    </div>
+                </div>
+            </article>
+
+          <!-- vid-2 -->
+<article class="vid-card">
+
+    <div class="thumbnail">
+
+        <img
+            src="https://picsum.photos/seed/design/640/360"
+            alt="UI design Vid"
+        >
+
+        <span class="duration">
+            5:21
+        </span>
+
+    </div>
+
+
+    <div class="video-info">
+
+        <div class="channel-picture purple">
+            5
+        </div>
+
+        <div class="video-text">
+
+            <h3>
+                UI Design Trends 2021
+            </h3>
+
+            <p>
+                DesignSense
+            </p>
+
+            <p>
+                521K views • 5 months ago
+            </p>
+
+        </div>
+
+    </div>
+
+</article>
+
+
+
+            <!-- vid-3 -->
+<article class="vid-card">
+
+    <div class="thumbnail">
+
+        <img
+            src="https://picsum.photos/seed/music/640/360"
+            alt="Music Video"
+        >
+
+        <span class="duration">
+            3:21
+        </span>
+
+    </div>
+
+
+    <div class="video-info">
+
+        <div class="channel-picture">
+            <i class="fa-solid fa-music"></i>
+        </div>
+
+        <div class="video-text">
+
+            <h3>
+                Simi - Complete Me | Official Video
+            </h3>
+
+            <p>
+                X3M Music
+            </p>
+
+            <p>
+                3.7M views • 3 years ago
+            </p>
+
+        </div>
+
+    </div>
+
+</article>
+<!-- vid-4 -->
+<article class="vid-card">
+
+    <div class="thumbnail">
+
+        <img
+            src="https://picsum.photos/seed/data/640/360"
+            alt="Data Analyst video"
+        >
+
+        <span class="duration">
+            7:30
+        </span>
+
+    </div>
+
+
+    <div class="video-info">
+
+        <div class="channel-picture">
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+        <div class="video-text">
+
+            <h3>
+                Data Analyst Career Switch | How I Became a Data...
+            </h3>
+
+            <p>
+                The Work Life Man
+            </p>
+
+            <p>
+                56K views • 1 month ago
+            </p>
+
+        </div>
+
+    </div>
+
+</article>
+           <!-- vid-5 -->
+<article class="vid-card">
+
+    <div class="thumbnail">
+
+        <img
+            src="https://picsum.photos/seed/africa/640/360"
+            alt="Africa Vid"
+        >
+
+        <span class="duration">
+            4:21:54
+        </span>
+
+    </div>
+
+
+    <div class="video-info">
+
+        <div class="channel-picture">
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+        <div class="video-text">
+
+            <h3>
+                STUBBORN BILLIONAIRES Complete
+            </h3>
+
+            <p>
+                UGEZU NO HE..
+            </p>
+
+            <p>
+                200K views • 2 days ago
+            </p>
+
+        </div>
+
+    </div>
+
+</article>
+           <!-- vid-6 -->
+<article class="vid-card">
+
+    <div class="thumbnail">
+
+        <img
+            src="https://picsum.photos/seed/interview/640/360"
+            alt="Interview Vid"
+        >
+
+        <span class="duration">
+            13:21
+        </span>
+
+    </div>
+
+
+    <div class="video-info">
+
+        <div class="channel-picture blue">
+            L
+        </div>
+
+        <div class="video-text">
+
+            <h3>
+                Linda Osifo and Olakira on The NdaniTGIFShow
+            </h3>
+
+            <p>
+                Ndani TV
+            </p>
+
+            <p>
+                1.2M views • 4 years ago
+            </p>
+
+        </div>
+
+    </div>
+
+</article>
+
+         <!-- vid-7 -->
+<article class="vid-card">
+
+    <div class="thumbnail">
+
+        <img
+            src="https://picsum.photos/seed/logo/640/360"
+            alt="Logo design Vid"
+        >
+
+        <span class="duration">
+            1:21:21
+        </span>
+
+    </div>
+
+
+    <div class="video-info">
+
+        <div class="channel-picture pink">
+            <i class="fa-solid fa-palette"></i>
+        </div>
+
+        <div class="video-text">
+
+            <h3>
+                Designing a Complete Brand Identity with Sydney...
+            </h3>
+
+            <p>
+                Design Channel
+            </p>
+
+            <p>
+                500K views • 2 years ago
+            </p>
+
+        </div>
+
+    </div>
+
+</article>
+
+<!-- vid-8 -->
+<article class="vid-card">
+
+    <div class="thumbnail">
+
+        <img
+            src="https://picsum.photos/seed/business/640/360"
+            alt="Business video"
+        >
+
+        <span class="duration">
+            17:21
+        </span>
+
+    </div>
+
+
+    <div class="video-info">
+
+        <div class="channel-picture">
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+        <div class="video-text">
+
+            <h3>
+                7 Mistakes Ladies Make When They Like a Guy
+            </h3>
+
+            <p>
+                Kingstley Okonkwo
+            </p>
+
+            <p>
+                800K views • 1 year ago
+            </p>
+
+        </div>
+
+    </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
