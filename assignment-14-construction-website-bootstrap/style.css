@@ -1,0 +1,54 @@
+:root {
+  --brand: #f7631b;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.btn-brand {
+  background: var(--brand);
+  color: #fff;
+  border-radius: 0;
+  padding: 12px 30px;
+}
+.btn-brand:hover {
+  background: #d94f0e;
+  color: #fff;
+}
+.text-brand {
+  color: var(--brand);
+}
+
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1600&q=80")
+      center/cover;
+  min-height: 90vh;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--brand);
+  margin: 12px auto 0;
+}
+
+.counter {
+  background: #222;
+  color: #fff;
+}
+.feature-icon {
+  font-size: 2.5rem;
+  color: var(--brand);
+}
+
+img {
+  background: #ddd;
+}
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
